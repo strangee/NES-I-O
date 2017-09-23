@@ -1137,7 +1137,7 @@ end
 
 function savePool()
 	local filename = forms.gettext(saveLoadFile)
-	writeFile(filename)
+	writeFile(writePath .. filename .. ".pool")
 end
 
 function loadFile(filename)
